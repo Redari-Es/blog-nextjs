@@ -21,7 +21,7 @@ export default function RootLayout({
 			<body>
 				<Navbar />
 				<Sidebar />
-				<main className="border border-red-500 overflow-hidden flexCenter scroll-smooth focus:scroll-auto">
+				<main className="border border-red-500 min-w-sm min-h-screen flex-col overflow-hidden flexCenter scroll-smooth focus:scroll-auto">
 
 					<div className="w-3/4 flex-grow  box-border border-2 border-solid rounded-lg shadow-lg hover:shadow-2xl h-auto">
 						{children}
